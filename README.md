@@ -9,6 +9,7 @@ id uuid primary key default gen_random_uuid(),
 nis varchar(20) not null,
 nama varchar(100) not null,
 kelas varchar(20) not null,
+ruang varchar(20) not null,
 created_at timestamp with time zone default now()
 );
 
